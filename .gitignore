@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pyz
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.eggs
+*.sdist
+*.wheel
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+.docker/
+
+# MySQL
+mysql/
+
+# Enviroment
+.env
+
+# IDEs and editors
+/.vscode
+*.swp
+*.swo
+*.swn
+*.suo
+*.user
+*.userosscache
+*.pydevproject
+.project
+.idea/
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
