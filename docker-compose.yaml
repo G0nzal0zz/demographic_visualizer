@@ -18,8 +18,8 @@ services:
     ports:
       - 3308:3306
 
-  web:
-    container_name: django-web
+  api:
+    container_name: django-api
     build:
       context: ./django_api
       dockerfile: Dockerfile
